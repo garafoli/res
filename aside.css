@@ -61,7 +61,7 @@ aside:hover {
 
 @media (max-width: 873px) {
     aside {
-        width: 97%;
+        width: 100%;
         height: max-content;
         display: block;
         position: static;
@@ -88,9 +88,16 @@ aside:hover {
         padding: 0;
     }
 }
-
+.nav2 {
+    width: 0;
+    height: 0;
+}
 @media (max-width: 425px) {
     aside {
         margin: 2px;
     }
+    .nav2 {
+    width: 0;
+    height: 0;
+}
 }
