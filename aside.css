@@ -88,10 +88,6 @@ aside:hover {
         padding: 0;
     }
 }
-.nav2 {
-    width: 0;
-    height: 0;
-}
 @media (max-width: 425px) {
     aside {
         margin: auto;
