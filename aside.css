@@ -66,8 +66,8 @@ aside:hover {
         display: block;
         position: static;
         margin: auto;
-        padding-left: 2px;
-        padding-right: 2px;
+        padding-left: 5px;
+        padding-right: 5px;
         padding-bottom: 5px;
     }
     .nav1 {
