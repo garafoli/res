@@ -1,0 +1,37 @@
+.name {
+    animation-name: anim;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate; */
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+}
+@keyframes anim {
+    0% {
+        left: 0%;
+    }
+    25% {
+        left: -25%;
+        font-size: 110%;
+        color: rgb(214, 210, 210);
+        text-shadow: 1px 2px 5px rgb(5, 134, 15), 1px 2px 5px rgb(29, 10, 196);
+    }
+    75% {
+        left: 25%;
+        font-size: 110%;
+        color: rgb(214, 210, 210);
+        text-shadow: 1px 2px 5px rgb(5, 134, 15), 1px 2px 5px rgb(29, 10, 196);
+    }
+    100% {
+        left: 0%;
+    }
+}
+.name:hover {
+    animation-play-state: paused;
+}
+@media (max-width: 873px) {
+    .name {
+        animation-name: none;
+    }
+}

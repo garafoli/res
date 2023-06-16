@@ -1,0 +1,382 @@
+:root {
+    --backgd_color: rgb(238, 236, 236);
+    --card_color: rgb(192, 188, 188);
+    --boxshadow_color: 0px 0px 20px rgb(196, 32, 32);
+    --imgshadow_color: 8px 8px 20px rgb(243, 115, 115);
+    --textshadow_color: 4px 4px 5px rgb(255, 255, 255);
+    --cardH2_color: rgb(224, 133, 13);
+    --cardH3_color: rgb(126, 75, 9);
+    --a_color: rgba(236, 14, 14, 0.63);
+    --aactive_color: rgb(96, 81, 136);
+    --tableshadov_color: 0px 0px 20px rgb(88, 85, 94);
+}
+body,html {
+    height:100%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--backgd_color);
+}
+.tel {
+    min-height:100%;
+}
+.name {
+    width: max-content;
+    height: 50px;
+    margin-top: 20px;
+    margin:auto;
+    position: relative;
+    text-shadow: 1px 2px 5px rgb(5, 134, 15), 1px 2px 5px rgb(29, 10, 196);
+}
+.card {
+    /* width: 100%; */
+    background-color: var(--card_color);
+    border-radius: 15px;
+    margin: 20px 20px 0 20px;
+    padding: 20px;
+}
+img {
+    width: 250px;
+    border-radius: 15px;
+    box-shadow: var(--imgshadow_color);
+}
+.image {
+    padding-top: 20px;
+}
+.card h2 {
+    text-align: center;
+    color: var(--cardH2_color);
+}
+.card h3 {
+    color: var(--cardH3_color);
+}
+.card ul {
+    display: flex;
+    list-style: none;
+}
+.card ul li {
+    margin-right: 10px;
+    height: 30px;
+}
+.card ul li a {
+    text-decoration: none;
+    color: var(--a_color);
+    font-size: 20px;
+    cursor: default;
+}
+.card ul li a:hover {
+    text-shadow: var(--textshadow_color);
+    font-size: 21px;
+}
+.card ul li a:active {
+    color: var(--aactive_color);
+    font-size: 20px;
+}
+.inet {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.inet223 {
+    margin-left: 28%;
+}
+.inet223 h2 {
+    padding-top: 10px;
+}
+.inet22 ul li:last-child {
+    margin-right: 0;
+}
+.inet2234 ul {
+    width: 360px;
+}
+.inet2234 ul li {
+    width: 120px;
+    padding: 0 10px;
+    padding-top: 12px;
+    margin-right: 0;
+}
+.hr {
+    margin-left: 26%;
+}
+.inet11 {
+    text-align: center;
+}
+.inet11 h3{
+    text-align:justify;
+    padding: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.inet12 {
+    width: 50%;
+}
+.inet12 h3 {
+    text-indent: 5%;
+    font-size: 18px;
+}
+.date {
+    display: flex;
+    justify-content: space-around;
+}
+.fedor {
+    color: rgb(20, 19, 17);
+}
+.inet13 {
+    width: auto;
+}
+.opt {
+    height: 80%;
+}
+.opt ul {
+    display: block;
+    justify-content: space-between;
+}
+.opt ul li {
+    padding: 0px;
+    margin-bottom: 10px;
+    margin-right: 0;
+}
+.text_video {
+    width: 50%;
+}
+video {
+    width: 50%;
+    border-radius: 15px;
+    box-shadow: var(--boxshadow_color);
+}
+.video {
+    padding: 30px;
+    display: flex;
+}
+.table {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: var(--tableshadov_color);
+}
+table tr {
+    height: 40px;
+    background: inherit;
+    font-size: 20px;
+    font-family: 'Times New Roman', sans-serif;
+    font-style: italic;
+}
+.tr1 {
+    background: grey;
+    font-size: 20px;
+    font-family: Verdana, sans-serif;
+    font-style: normal;
+}
+.tr1 td {
+    border: 1px solid black;
+}
+table tr td{
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 15px;
+}
+form {
+    text-align: center;
+}
+input {
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid grey;
+    font-family: inherit;
+}
+textarea {
+    width: 100%;
+    max-height: 100px;
+    font-size: 20px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid grey;
+    font-family: inherit;
+}
+#message::placeholder{
+    font-size: 14px;
+}
+.btn {
+    border: none;
+    font-size: 20px;
+    text-align: center;
+    color: var(--a_color);
+    height: 20px;
+}
+.btn:hover {
+    text-shadow: var(--textshadow_color);
+    font-size: 21px;
+}
+.btn:active {
+    color: var(--aactive_color);
+    font-size: 20px;
+}
+
+@media (max-width: 873px) {
+    .card {
+        padding: 1px;
+        margin: 10px;
+    }
+    .name {
+        font-size: 70%;
+        height: 30px;
+        text-align: center;
+    }
+    .nav1 h3 {
+        font-size: 100%;
+    }
+    .inet {
+        display: block;
+    }
+    .image {
+        text-align: center;
+    }
+    .img {
+        width: 150px;
+        box-shadow: 0 0 15px rgb(87, 88, 87);
+    }
+    br {
+        display: none;
+    }
+    .card h2 {
+        font-size: 70%;
+    }
+    .card h3 {
+        font-size: 60%;
+    }
+    .inet ul li {
+        width: 100%;
+        margin: 0;
+    }
+    .card ul li a:hover {
+        font-size: 13px;
+    }
+    .inet11 {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .date {
+        justify-content: space-around;
+        font-size: 60%;
+    }
+    .card ul li a {
+        font-size: 12px;
+    }
+    .opt ul {
+        display: flex;
+        justify-content: space-around;
+        height: 110%;
+    }
+    .inet22 {
+        margin: 0;
+        padding: 0;
+        display: block;
+        border-bottom: none;
+    }
+    .inet223 {
+        margin-left: 0;
+    }
+    .inet2234 {
+        margin: 0;
+        padding: 0;
+        border-bottom: none;
+        width: 100%;
+    }
+    .inet2234 ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .inet2234 ul li {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        border-radius: 15px;
+    }
+    .inet2234 ul li a {
+        text-align: center;
+    }
+    .hr {
+        display: none;
+    }
+    video{
+        box-shadow: none;
+        padding: 5px;
+    }
+    table tr{
+        height: auto;
+    }
+    table tr td {
+        font-size: 50%;
+    }
+    .table{
+        box-shadow: none;
+    }
+    label {
+        font-size: 10px;
+    }
+    ::placeholder {
+        font-size: 8px;
+    }
+    #message::placeholder{
+        font-size:8px;
+    }
+    .btn{
+        font-size: 12px;
+    }
+    .btn:hover {
+        font-size: 13px;
+    }
+}
+@media (max-width: 425px) {
+    .card {
+        margin: 2px;
+    }
+    .name {
+        font-size: 70%;
+        width: min-content;
+        height: 80px;
+        text-align: center;
+        animation-name: none;
+    }
+    .inet11 h3 {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .opt ul {
+        display: block;
+        height: auto;
+    }
+    .opt ul li {
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+    .opt ul li a {
+        margin: 0;
+        padding: 0;
+    }
+}
+@media (max-width: 250px)  {
+    table tr td {
+        font-size: 20%;
+    }
+    .opt ul {
+        justify-content: space-around;
+    }
+    .inet2234 ul {
+        display: block;
+    } 
+    .inet2234 ul li {
+        height: auto;
+    }
+}
