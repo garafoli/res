@@ -61,7 +61,7 @@ aside:hover {
 
 @media (max-width: 873px) {
     aside {
-        width: 100%;
+        width: 97%;
         height: max-content;
         display: block;
         position: static;
