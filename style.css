@@ -275,15 +275,6 @@ textarea {
         justify-content: space-around;
         height: 110%;
     }
-    .video {
-        display: block;
-    }
-    .text_video {
-        width: 100%;
-    }
-    video {
-        width: 100%;
-    }
     .inet22 {
         margin: 0;
         padding: 0;
@@ -374,6 +365,16 @@ textarea {
     .opt ul li a {
         margin: 0;
         padding: 0;
+    }
+    
+    .video {
+        display: block;
+    }
+    .text_video {
+        width: 100%;
+    }
+    video {
+        width: 100%;
     }
 }
 @media (max-width: 250px)  {
