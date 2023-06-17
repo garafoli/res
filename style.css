@@ -146,7 +146,6 @@ img {
 video {
     width: 50%;
     border: 1px solid black;
-    padding-right: 20px;
     box-shadow: var(--boxshadow_color);
 }
 .video {
@@ -312,6 +311,7 @@ textarea {
     video{
         box-shadow: none;
         padding: 5px;
+        margn-right: 15px
     }
     table tr{
         height: auto;
