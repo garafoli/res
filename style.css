@@ -275,16 +275,15 @@ textarea {
         justify-content: space-around;
         height: 110%;
     }
+    .video {
+        display: block;
+    }
     .text_video {
-    width: 100%;
-}
-video {
-    width: 100%;
-    border: 1px solid black;
-}
-.video {
-    display: block;
-}
+        width: 100%;
+    }
+    video {
+        width: 100%;
+    }
     .inet22 {
         margin: 0;
         padding: 0;
