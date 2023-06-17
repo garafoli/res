@@ -145,7 +145,6 @@ img {
 }
 video {
     width: 50%;
-    background-color: black;
     border: 1px solid black;
     box-shadow: var(--boxshadow_color);
 }
