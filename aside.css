@@ -59,10 +59,6 @@ aside:hover {
     background-color: var(--aactive_color);
 }
 
-aside:hover {
-    
-}
-
 @media (max-width: 600px) {
     aside {
         width: 97%;
@@ -91,6 +87,9 @@ aside:hover {
         margin: 0;
         padding: 0;
     }
+    aside:hover {
+    margin-left: 6px;
+}
 }
 @media (max-width: 425px) {
     aside {
