@@ -102,3 +102,6 @@ aside:hover {
         padding-right: 2px;
         padding-bottom: 5px;
     }
+    aside:hover {
+    margin-left: 2px;
+}
