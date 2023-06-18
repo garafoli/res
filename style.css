@@ -371,10 +371,10 @@ textarea {
         display: block;
     }
     .text_video {
-        width: 97%;
+        width: 100%;
     }
     video {
-        width: 100%;
+        width: 97%;
     }
 }
 @media (max-width: 250px)  {
